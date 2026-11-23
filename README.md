@@ -83,6 +83,12 @@ npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-fro
 
 That installs the skill with the [`npx skills`](https://github.com/vercel-labs/agent-skills) CLI.
 
+Or install it with the [GitHub CLI](https://cli.github.com/):
+
+```bash
+gh skill install Leonxlnx/taste-skill taste-skill
+```
+
 The skill runs its scripts with **Node 22+** and an installed **Chrome, Edge or Chromium** (set `CHROME_PATH` if it is in a non-standard place). Optional: **ffmpeg** on the PATH, for WebP output and the phone crop of a hero photograph in `photos.mjs`. It installs nothing and needs no API keys. Bundled Wikimedia Commons photographs work offline; fetching additional photographs or icons uses network access.
 
 <details>
